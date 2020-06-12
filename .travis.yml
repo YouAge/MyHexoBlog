@@ -1,0 +1,26 @@
+language: node_js
+node_js: stable
+
+install:
+  - npm install hexo
+
+script:
+  - hexo clean
+  - hexo g
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "Masger"
+  - git config user.email "1010227175@163.com"
+  - git add .
+  - git commit -a -m "update mg"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+
+branches:
+  only:
+    - hexo
+
+env:
+  global:
+    - GH_REF: git@github.com:YouAge/youage.github.com.git
