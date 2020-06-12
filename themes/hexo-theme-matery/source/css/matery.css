@@ -411,6 +411,7 @@ header .side-nav .social-link {
     color: #fff;
     border: 1px solid #fff;
     background-color: transparent;
+    /*background-color: #2CC9B1;*/
     border-radius: 30px;
     box-shadow: none;
 }
@@ -581,10 +582,15 @@ header .go-back i {
 }
 
 /*## 随机变色*/
+/*.bg-cover:after {*/
+/*    -webkit-animation: rainbow 60s infinite;*/
+/*    animation: rainbow 60s infinite;*/
+/*}*/
+
 .bg-cover:after {
-    -webkit-animation: rainbow 60s infinite;
-    animation: rainbow 60s infinite;
+    background: rgba(156, 39, 176, 0.35);
 }
+
 
 .bg-cover:before,
 .bg-cover:after {

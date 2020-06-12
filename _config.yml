@@ -26,7 +26,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+## 不渲染
+skip_render: poho/**
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -56,9 +57,9 @@ prism_plugin:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 12
+  per_page: 12  # 设置分页
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -116,7 +117,7 @@ sitemap:
     path: baidusitemap.xml
 
 #douban
-douban: 
+douban:
   user: 165688341
   builtin: false  #builtin参数为true，那么除了可以使用hexo douban命令之外，hexo g或hexo s也内嵌了生成页面的功能。
   book:
@@ -124,7 +125,7 @@ douban:
     quote: '学如逆水行舟，不进则退'
   movie:
     title: '影视基地'
-    quote: '一场电影，一部人生' 
+    quote: '一场电影，一部人生'
   timeout: 20000
 
 
