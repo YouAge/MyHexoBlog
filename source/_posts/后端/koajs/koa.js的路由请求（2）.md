@@ -1,5 +1,5 @@
 ---
-title: node-koa.js的post请求
+title: koa.js的路由请求（2）
 date: 2020-06-15 22:57:00
 author: M.
 img: false
@@ -12,7 +12,8 @@ mathjax: false
 summary: false 
 categories: 后端
 tags:
-  - node
+  - node.js
+  - koa.js
 ---
 
 
