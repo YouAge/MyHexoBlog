@@ -501,20 +501,4 @@ and upper(a.customer)=b.customer
 and upper(a.lineid) =  b.lineid 
 and upper(a.reportprocess) = b.reportprocess
 and a.date =to_char(now(), 'yyyy-mm-dd') WHERE a.date = to_char(now(), 'yyyy-mm-dd')
-
-```
-
-```SQL
- SELECT testtable."Customer",
-    testtable."StepName",
-    testtable."StepID",
-    testtable."DRI",
-    testtable.remark,
-    testtable.reportname,
-    testtable.type,
-    testtable.reportid,
-    testtable.typeid
-   FROM dblink('dbname=BG host=10.128.19.168 port=5432 user=postgres password=123456 '::text, 'SELECT "Customer", "StepName", "StepID", "DRI", remark, reportname, 
-       type, reportid,typeid
-  FROM public."IFSStepID"'::text) testtable("Customer" text, "StepName" text, "StepID" text, "DRI" text, remark text, reportname text, type text, reportid text, typeid text);
 ```

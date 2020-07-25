@@ -1,5 +1,5 @@
 ---
-title:TypeScript学习(1)-环境搭建
+title: TypeScript学习(1)-环境搭建
 date: 2020-07-24 08:45:00
 author: Dong
 img: false
