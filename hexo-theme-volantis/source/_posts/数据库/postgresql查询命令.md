@@ -1,17 +1,21 @@
 ---
 title: postgresql查询
 author: M.
-img: false
 cover: false
-coverImg: false
-password: false
 toc: true
 mathjax: false
 summary: false
-categories: 数据库
+categories: 
+  - 数据库
+  - PostgreSql
 tags:
   - PostgreSql
 abbrlink: bee85523
+meta:
+  header: [title, author, date, category, counter, top]
+  footer: [updated, tags, share]
+icons: [fas fa-fire red, fas fa-star green]
+sidebar: [toc, category, tagcloud,related_posts, qrcode,webinfo]
 date: 2020-07-14 00:46:00
 ---
 

@@ -14,7 +14,7 @@ meta:
   header: [title, author, date, category, counter, top]
   footer: [updated, tags, share]
 icons: [fas fa-fire red, fas fa-star green]
-sidebar: [toc,blogger, category, tagcloud,related_posts, qrcode,webinfo]
+sidebar: [toc, category, tagcloud,related_posts, qrcode,webinfo]
 toc: true
 ---
 
