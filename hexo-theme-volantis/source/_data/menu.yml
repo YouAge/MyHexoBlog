@@ -1,0 +1,43 @@
+- name: 首页
+  icon: fas fa-home fa-fw
+  url: /
+- name: 分类
+  icon: fas fa-folder-open
+  url: blog/categories/
+- name: 标签
+  icon: fas fa-tags
+  url: blog/tags/
+- name: 归档
+  icon: fas fa-archive
+  url: archives/
+- name: 友链
+  icon: fas fa-link
+  url: blog/link/
+- name: 关于
+  icon: fas fa-info-circle
+  url: about/
+- name: 更多
+  icon: fas fa-ellipsis-v
+  rows:
+    - name: 主题源码
+      url: https://github.com/YouAge/youage.github.com
+#    - name: 更新日志
+#      url: https://github.com/volantis-x/hexo-theme-volantis/releases/
+    - name: hr
+    - name: 有疑问？
+      rows:
+        - name: 看 FAQ
+          url: faqs/
+        - name: 看 本站源码
+          url: https://github.com/YouAge/youage.github.com
+#        - name: 提 Issue
+#          url: https://github.com/volantis-x/hexo-theme-volantis/issues/
+    - name: hr
+#    - name: 公告和测试博文
+#      url: archives/
+#    - name: 示例博客
+#      url: examples/
+#    - name: 特别感谢
+#      url: contributors/
+    - name: 背景音乐
+      icon: fas fa-compact-disc

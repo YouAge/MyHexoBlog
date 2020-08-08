@@ -1,0 +1,141 @@
+
+## 小零件配置
+
+widget:
+  blogger:
+    class: blogger
+    display: [desktop, mobile] # [desktop, mobile]
+    avatar: /img/avatar.jpg
+    shape: rectangle # circle, rectangle
+    url: /about/
+    title:
+    subtitle:
+    jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+    social: true
+    # ---------------------------------------
+    # toc widget (valid only in articles)
+  toc:
+    class: toc
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fas fa-list
+      title: 本文目录
+    list_number: false
+    min_depth: 2
+    max_depth: 5
+  # ---------------------------------------
+  # category widget
+  category:
+    class: category
+    display: [desktop] # [desktop, mobile]
+    header:
+      icon: fas fa-folder-open
+      title: 文章分类
+      url: /blog/categories/
+  # ---------------------------------------
+  # tagcloud widget
+  tagcloud:
+    class: tagcloud
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fas fa-tags
+      title: 热门标签
+      url: /blog/tags/
+    min_font: 14
+    max_font: 24
+    color: true
+    start_color: '#999'
+    end_color: '#555'
+  #--------------------------
+  text:
+    class: text
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fas fa-bullhorn fa-fw
+      title: 本站公告
+  #  max_count: 5
+    #    blockquote: true
+    content:
+      - 让我们一起成长吧...   # 公告
+
+  # ---------------------------------------
+  # related posts widget
+  related_posts:
+    class: related_posts # npm i -S hexo-related-popular-posts
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fas fa-bookmark
+      title: 相关文章
+    max_count: 5
+  # ---------------------------------------
+  # copyright widget (valid only in articles)
+  copyright:
+    class: copyright
+    display: [desktop, mobile] # [desktop, mobile]
+    blockquote: true
+    permalink: '本文永久链接是：'
+    content:
+      - '博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
+      - permalink
+  # ---------------------------------------
+  # qrcode widget  # 打赏二维码
+  donate:
+    class: qrcode
+    display: [desktop, mobile] # [desktop, mobile]
+    height: 64px  # Automatic height if not set
+    fancybox: true
+    images:
+      - /img/alipay.jpg
+      - /img/wechat.jpg
+  # ---------------------------------------
+  # references widget
+  references:
+    class: references # is subclass of list
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fas fa-quote-left
+      title: 参考资料
+  related_repos:
+    class: references # is subclass of list
+    display: [desktop, mobile] # [desktop, mobile]
+    header:
+      icon: fab fa-github
+      title: 源码链接
+  # ---------------------------------------
+  # webinfo widget
+  webinfo:
+    class: webinfo
+    display: [desktop]
+    header:
+      icon: fas fa-award
+      title: 站点信息
+    type:
+      article:
+        enable: true
+        text: '文章数目：'
+        unit: '篇'
+      runtime:
+        enable: true
+        data: '2020/01/01'    # 填写建站日期
+        text: '已运行时间：'
+        unit: '天'
+      wordcount:
+        enable: true
+        text: '本站总字数：'   # 需要启用 wordcount
+        unit: '字'
+      siteuv:
+        enable: true
+        text: '本站访客数：'   # 需要启用 busuanzi
+        unit: '人'
+      sitepv:
+        enable: true
+        text: '本站总访问量：' # 需要启用 busuanzi
+        unit: '次'
+      lastupd:
+        enable: true
+        friendlyShow: true    # 更友好的时间显示
+        text: '最后活动时间：'
+        unit: '日'
+
+  # You can add your own widget here or 'blog/source/_data/widget.yml'
+  # class: text, list, grid, qrcode, page, ... see more at https://volantis.js.org/
