@@ -424,7 +424,7 @@ widget:
     header:
       icon: fab fa-github
       title: 点个赞吧
-      url: https://github.com/xaoxuu/
+      url: https://github.com/YouAge
     content:
       - '您的赞对我来说很重要，如果您喜欢本主题，希望能够给下面的项目点个赞来支持一下。'
   wiki-hexo-theme:
@@ -722,7 +722,7 @@ rightmenu:
   source_docs:
     name: 本站源码
     icon: fa fa-code-branch
-    url: https://github.com/YouAge
+    url: https://github.com/YouAge/MyHexoBlog/tree/master/hexo-theme-volantis
   source_theme:
     name: 主题源码
     icon: fa fa-code-branch

@@ -29,7 +29,7 @@
         - name: 看 FAQ
           url: faqs/
         - name: 看 本站源码
-          url: https://github.com/YouAge/youage.github.com
+          url: https://github.com/YouAge/MyHexoBlog/tree/master/hexo-theme-volantis
 #        - name: 提 Issue
 #          url: https://github.com/volantis-x/hexo-theme-volantis/issues/
     - name: hr
